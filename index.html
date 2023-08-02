@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<title></title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./style.css">
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+
+<form >
+	<div class="container">
+
+		
+
+		<div>
+			<button   id="forwards"  class="btn btn-info"  >Forwards</button>
+		</div>
+
+		<div class="input_row">
+			<button  id="left"  class="btn btn-info" >Left</button>
+			<input type="text" id="value" name="value" required autocomplete="off"> 
+			<button id="right"  class="btn btn-info" >Right</button>
+		</div>
+		
+		<div id="Result"></div>
+
+		<div class="save_row">
+			<label class="text" name="lname">Path's Name:</label>
+			<input type="text" id="pathname" name="pathname" value="" required autocomplete="off"> 
+			<button  name="click" id="save"  class="btn btn-info red_btn" >Save Path</button>
+		</div>
+
+		
+	</div>
+	 
+			
+	
+</form>	
+<div class="part2">
+
+	<canvas id="myCanvas"></canvas> 
+	<button  name="click" id="delete"  class="btn btn-info red_btn" >Reset Path</button>
+</div>
+
+
+
+<script type="text/javascript" src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
